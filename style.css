@@ -1,0 +1,9 @@
+ul{
+	color: purple;
+}
+p{
+	color: green;
+}
+li:nth-of-type(2){
+	color: blue;
+}

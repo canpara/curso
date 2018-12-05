@@ -1,0 +1,29 @@
+body{
+	background-image:url(http://timeinc.brightcove.com.edgesuite.net/rtmp_uds/293884104/201703/1458/293884104_5376225125001_5376200086001-th.jpg?pubId=293884104&videoId=5376200086001);
+	background-size: cover;
+	background-position:center ;
+	font-family: lato;
+	color: white;
+}
+html{
+	height: 100%;
+}
+#content{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow:0px 4px 3px rgba(0, 0, 0, 0.4),
+				0px 8px 13px rgba(0, 0, 0, 0.1),
+				0px 18px 23px rgba(0, 0, 0, 0.1);  
+}
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+hr{
+	width: 450px;
+	clear: both;
+  	color: white;
+  	background-color: white;
+  	height: 1px;
+  	border-width: 0;
+}

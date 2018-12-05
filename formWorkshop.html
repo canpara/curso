@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Excercise</title>
+</head>
+<body>
+
+<form action="">
+	<h1>Register</h1>
+	<div>
+		<label for="firstName:">First Name:</label>
+		<input id="firstName" name="first" type="text" placeholder="First Name" required="true">
+		<label for="lastName">Last Name</label>
+		<input id="lastName" name="last" type="text" placeholder="Last Name" required="true">
+	</div>
+	<div>
+		<label for="male">Male</label>
+		<input name="gender" id="male" type="radio">
+		<label for="female">Female</label>
+		<input name="gender" id="female" type="radio">	
+		<label for="other">Other</label>
+		<input name="gender" id="other" type="radio">
+	</div>
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" type="email" required="true" placeholder="Email">
+		<label for="password">Password</label>
+		<input id="password" type="password" required="true" minlength="5" maxlength="10" placeholder="Password">
+	</div>
+	<div>
+		<label for="">Birthday</label>
+		<select name="birthday" id="month">
+			<option value="month">Month</option>
+			<option value="january">January</option>
+			<option value="february">February</option>
+			<option value="march">March</option>
+			<option value="april">April</option>
+			<option value="may">May</option>
+		</select>
+		<select name="birthday" id="day">
+			<option value="day">Day</option>
+			<option value="4">4</option>	
+			<option value="12">12</option>	
+			<option value="20">20</option>
+			<option value="30">30</option>
+		</select>
+		<select name="birthday" id="year">
+			<option value="year">Year</option>
+			<option value="1992">1992</option>
+			<option value="1993">1993</option>
+			<option value="1994">1994</option>
+		</select>
+	</div>
+	<div>
+		<label for="agree">I agree to the terms and conditions</label>
+		<input id="agree" type="checkbox" required="true">
+	</div>
+	<div>
+		<button>Submit</button>
+	</div>
+
+</form>
+	
+</body>
+</html>
